@@ -1,0 +1,84 @@
+In file included from jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:55:
+jni/edu_cmu_us_speech_tts_wordcallback.hh:18: error: ISO C++ forbids declaration of 'vector' with no type
+jni/edu_cmu_us_speech_tts_wordcallback.hh:18: error: expected ';' before '<' token
+jni/edu_cmu_us_speech_tts_wordcallback.hh:19: error: ISO C++ forbids declaration of 'vector' with no type
+jni/edu_cmu_us_speech_tts_wordcallback.hh:19: error: expected ';' before '<' token
+jni/edu_cmu_us_speech_tts_wordcallback.hh:20: error: ISO C++ forbids declaration of 'vector' with no type
+jni/edu_cmu_us_speech_tts_wordcallback.hh:20: error: expected ';' before '<' token
+jni/edu_cmu_us_speech_tts_wordcallback.hh:21: error: ISO C++ forbids declaration of 'vector' with no type
+jni/edu_cmu_us_speech_tts_wordcallback.hh:21: error: expected ';' before '<' token
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:104: error: 'Utterance' has not been declared
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:104: error: expected constructor, destructor, or type conversion before '(' token
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:110: error: expected constructor, destructor, or type conversion before '::' token
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:112: error: 'string' does not name a type
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:117: error: 'string' does not name a type
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:122: error: 'UttEventCallback' has not been declared
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:122: error: 'string' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:122: error: 'string' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:122: error: expected primary-expression before 'int'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:122: error: expected primary-expression before 'float'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:122: error: initializer expression list treated as compound expression
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:123: error: expected ',' or ';' before '{' token
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:126: error: 'Flite' has not been declared
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:126: error: ISO C++ forbids declaration of 'Flite' with no type
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp: In function 'int Flite()':
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:128: error: 'utt_' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:129: error: 'utt_event_callback_' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:130: error: 'seg_callbacks_' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp: At global scope:
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:134: error: 'Flite' is not a class or namespace
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp: In function 'void setSegmentCallbacks(bool)':
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:136: error: 'seg_callbacks_' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp: At global scope:
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:139: error: 'Flite' is not a class or namespace
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:139: error: variable or field 'setUttEventCallback' declared void
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:139: error: 'UttEventCallback' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:139: error: 'cb' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp: In function 'int fliteCallback(const cst_wave*, int, int, int, cst_audio_streaming_info_struct*)':
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:163: error: 'fte' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:163: error: expected primary-expression before ')' token
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:163: error: expected ';' before 'asi'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:164: error: 'Utterance' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:164: error: 'utt' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:165: error: expected ';' before 'int'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:174: error: 'string' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:174: error: expected ';' before 'token'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:209: error: 'string' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:209: error: expected ';' before 'seg_name'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:214: error: 'seg_name' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:224: error: 'string' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:224: error: expected ';' before 'utt_id'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:227: error: 'vector' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:227: error: expected primary-expression before 'float'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:227: error: expected ';' before 'float'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:228: error: expected primary-expression before 'int'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:228: error: expected ';' before 'int'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:233: error: 'utt_callback_stop_requested' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:233: error: 'utt_id' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:233: error: 'START_EVENT' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:233: error: 'utt_callback_stop_requested' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:240: error: expected primary-expression before 'float'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:240: error: expected ';' before 'float'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:241: error: '::iterator' has not been declared
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:241: error: expected ';' before 'labels'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:243: error: 'durations' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:246: error: expected ';' before 'seg_name'
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:248: error: 'utt_callback_stop_requested' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:248: error: 'utt_id' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:248: error: 'SEGMENT_EVENT' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:248: error: 'seg_name' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:259: error: 'durations' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:262: error: 'utt_callback_stop_requested' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:262: error: 'utt_id' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:262: error: 'WORD_EVENT' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:262: error: 'indices' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:283: error: 'utt_callback_stop_requested' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:283: error: 'utt_id' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:283: error: 'WORD_EVENT' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:283: error: 'indices' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:283: error: 'durations' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:292: error: 'utt_callback_stop_requested' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:292: error: 'utt_id' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:292: error: 'END_EVENT' was not declared in this scope
+jni/edu_cmu_cs_speech_tts_fliteEngine.cpp:299: error: 'utt_callback_stop_requested' was not declared in this scope
+make: *** [obj/local/armeabi-v7a/objs/ttsflite/edu_cmu_cs_speech_tts_fliteEngine.o] Error 1
